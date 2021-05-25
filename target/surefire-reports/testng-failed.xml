@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testcases.TitleSectionTest">
+        <methods>
+          <include name="validateTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TitleSectionTest -->
+      <class name="testcases.SearchItemTest">
+        <methods>
+          <include name="searchItemTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.SearchItemTest -->
+      <class name="testcases.FlipboardLoginTest">
+        <methods>
+          <include name="validateGetStartedButton" invocation-numbers="0"/>
+          <include name="chooseTopicsTest" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.FlipboardLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
